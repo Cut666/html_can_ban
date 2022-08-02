@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+  <title>Thông tin cá nhân</title>
+  <link rel="icon" href="cut.jpg" />
+  <style>
+    body {
+      background-image: url(https://i0.wp.com/www.csscodelab.com/wp-content/uploads/2020/03/html-gradient-background-css.png?fit=993%2C649&ssl=1);
+    }
+  </style>
+</head>
+
+<body>
+  <div style="background-color: green">
+    <img src="cut2.jpg" alt="ảnh CUT" width="90px" />
+    <b style="font-size: 80px; padding-left: 200px"
+      >Thông tin dữ liệu cá nhân</b
+    >
+  </div>
+  <h1 style="text-align: center">
+    Chào mừng bạn đến với trang giới thiệu về bản thân của bạn với Cut
+  </h1>
+  <form>
+    <h2 style="padding-left: 30%">
+      Điền thông tin giới thiệu bản thân cho Cut
+    </h2>
+    <div style="padding-left: 40%">
+      <label for="full-name">Họ và tên</label>
+      <input type="text" id="full-name" placeholder="Họ và tên" />
+      <br />
+
+      <br />
+      <label for="gmail">Gmail</label>
+      <input type="text" id="gmail" placeholder="Gmail" />
+      <br />
+      <br />
+      <label for="phone">Số điện thoại</label>
+      <input type="text" id="phone" placeholder="Số điện thoại" />
+      <br />
+      <br />
+    </div>
+    <h2 style="padding-left: 30%">
+      Hãy lựa chọn một hoặc nhiều câu trả lời để cung cấp thông tin của bạn cho
+      Cut
+    </h2>
+    <div style="padding-left: 40%">
+      <h3>Giới tính của bạn là gì</h3>
+      <label for="giới tính nam">Nam</label>
+      <input type="radio" id="giới tính nam" name="name" />
+      <br />
+      <label for="giới tính nữ">Nữ</label>
+      <input type="radio" id="giới tính nữ" name="name" />
+      <br />
+      <label for="giới tính 3d">LGPT</label>
+      <input type="radio" id="giới tính 3d" name="name" />
+      <h3>Ngày tháng năm sinh của bạn</h3>
+      <label for="dev-type">Ngày sinh</label>
+      <input type="date" id="dev-type" />
+      <h3>Bạn hãy cho Cut biết bạn có những sở thích nào dưới đây</h3>
+      <label for="thể thao">Thể thao</label>
+      <input type="checkbox" id="thể thao" />
+      <br />
+      <br />
+      <label for="đọc sách">Đọc sách</label>
+      <input type="checkbox" id="đọc sách" />
+      <br />
+      <br />
+      <label for="du lịch">Du lịch</label>
+      <input type="checkbox" id="du lịch" />
+      <br />
+      <br />
+      <label for="khách">Khác</label>
+      <input type="text" name="khác" id="khác" placeholder="Ý kiến khác" />
+      <br />
+      <br />
+      <h3>
+        Để có thể hiểu rõ hơn về IQ của bạn, bạn hãy lựa cho kết quả của phép
+        tính này 1+1=?
+      </h3>
+      <label for="dev-type">Đáp án</label>
+      <select name="đáp án" id="dev-type">
+        <option value="1">0</option>
+        <option value="2">1</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      <br />
+      <br />
+      <h3>Điền ưu và nhược điểm của bản thân</h3>
+      <textarea rows="10" cols="80" name="miêu tả">
+          Ưu điểm
+
+
+
+          Nhược điểm
+      </textarea>
+      <br />
+      <br />
+      <button type="submit">Gửi</button>
+      <button type="reset">Nhập lại</button>
+    </div>
+  </form>
+</body>
