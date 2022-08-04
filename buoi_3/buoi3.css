@@ -1,0 +1,28 @@
+#abc {
+  color: green;
+}
+.l123 {
+  background-color: red;
+}
+.l123.l234 {
+  font-size: 80px;
+}
+.l123,.l345{color: blue;}
+#gia{color: blueviolet;}
+#nut{background-color: violet; color: white;}
+#the{
+
+}
+#tieude{text-transform: uppercase;}
+.doangiua{
+    font-weight: 1000;
+}
+#the_p{
+font-style: italic;
+}
+#trich{
+    text-transform: capitalize;
+    font-weight: 1000;
+    text-align: right;
+    background-color: blue;
+}
