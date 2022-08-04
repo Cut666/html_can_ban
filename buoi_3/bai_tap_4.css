@@ -1,0 +1,18 @@
+.tieu_de {
+  font-weight: 400;
+  text-transform: capitalize;
+}
+#shared_hosting {
+  font-weight: 900;
+  color: rgba(86, 155, 251, 0.995);
+}
+#noi_dung {
+  font-size: 10px;
+}
+.button {
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 100px;
+  text-transform: capitalize;
+}
