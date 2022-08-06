@@ -1,0 +1,22 @@
+.background{
+    background-image:url(https://startuanit.net/wp-content/uploads/2021/04/hinh-nen-chiec-o-cho-iphone-23.jpg);
+    background-size: cover;
+    border: 1px solid white;
+    height: 100vw;
+    box-sizing: content-box;
+    color: white;
+}
+#img{
+    width: 100px;
+}
+#tieu_de{
+    padding-left: 500px;
+    font-size: 70px;
+}
+#nd_3{
+    background-color: red;
+    color: white;
+}
+#nd_3:hover{
+    font-size: 10px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> </title>
+    <link rel="stylesheet" href="buoi_4.css" />
+  </head>
+  <body>
+    <div style="margin: 200px">
+      <p
+        style="
+          border: 1px solid green;
+          padding-left: 64px;
+          margin-right: 36px;
+          display: inline;
+          padding-right: 64px;
+        "
+      >
+        box1
+      </p>
+      <p
+        style="
+          border: 1px solid red;
+          display: inline-block;
+          padding: 24px 36px;
+          margin-bottom: 48px;
+        "
+      >
+        box2
+      </p>
+      <p
+        style="
+          border: 1px solid blue;
+          padding-left: 24px;
+          box-sizing: border-box;
+          width: 480px;
+        "
+      >
+        box3
+      </p>
+    </div>
+    <div>
+        <p>Bài 1
+            
+        </p>
+        <ul> Tạo một danh sách bất kỳ, khi hover chuột vào từng item trong
+            danh sách đó thì style của item thay đổi
+            <li id="dong_1">dòng 1</li>
+            <li id="dong_2">dòng 2</li>
+            <li id="dong_3">dòng 3</li>
+        </ul>
+      <ul class="t"> ấn vào đây
+        <!-- chú ý: cùng các thẻ hover là thẻ cha của các thẻ được thay đổi thì dùng phím space để ngan cách VD t:hover .t1-->
+        <!-- chú ý: thẻ hover cùng cấp với các thẻ được thay đổi thì dùng dấu ~ để ngăn cách VD: .t1:hover~t2{} -->
+        <br>
+        <br>
+        <li class="t1">cái này hiện lên</li>
+        <li id="t2">cái này hiện lên</li>
+      </ul>
+    </div>
+    <div class="l"> ấn vào đây
+        <p class="l1">cái cần hiện</p>
+        <p class="l2">cái cần hiện</p>
+    </div>
+ </body>
+</html>

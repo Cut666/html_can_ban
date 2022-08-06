@@ -1,0 +1,26 @@
+#dong_1:hover{
+    background-color: red;
+    color: white;
+}
+#dong_2:hover{
+    background-color: black;
+    color: white;
+}
+#dong_3:hover{
+    background-color: aqua;
+    color: black;
+}
+/* .t:hover .t1{
+    background-color: black;
+    color: aliceblue;
+}
+.t:hover #t2{
+    background-color: aqua;
+    color: black;
+}
+.l:hover .l1{
+    background-color: aqua;
+} */
+.t1:hover~#t2{
+    background-color: black;
+}
