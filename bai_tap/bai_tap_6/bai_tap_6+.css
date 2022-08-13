@@ -1,0 +1,78 @@
+.tieu_de {
+  background-color: black;
+  font-size: 100px;
+  color: aliceblue;
+  margin-top: 0px;
+  margin-bottom: 2px;
+  text-align: center;
+}
+.background {
+  display: flex;
+  justify-content: space-between;
+  font-size: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: black;
+  color: aliceblue;
+}
+.nav_2 a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: aliceblue;
+}
+.nav_1 a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: aliceblue;
+}
+.nd {
+  width: 1500px;
+  margin-left: calc(50% - 750px);
+  display: flex;
+  background-color: azure;
+  justify-content: space-around;
+}
+.nd_1 {
+  width: 400px;
+  text-align: center;
+}
+.nd_1 img {
+  width: 400px;
+}
+#nd_1_1 {
+  font-weight: 600;
+  font-size: 30px;
+}
+.nd_2 {
+  width: 600px;
+  height: 1200px;
+  display: flex;
+}
+.nd_2 img {
+  width: 200px;
+  height: 300px;
+}
+
+#nd_2_1 {
+  margin-left: 10px;
+  font-size: 20px;
+  padding-top: 50px;
+}
+#nd_2_2 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+#nd_2_1 a{
+    text-decoration: none;
+    border: 1px solid black;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    color: black;
+}
+#nd_3{
+    font-weight: 600;
+    font-size: 30px;
+}

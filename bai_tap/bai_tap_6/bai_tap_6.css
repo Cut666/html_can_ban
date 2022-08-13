@@ -1,0 +1,150 @@
+.background {
+  width: 1000px;
+  height: 1000px;
+  border: 1px solid pink;
+  margin-left: calc(50vw - 500px);
+  margin-top: 100px;
+  background-color: pink;
+  box-shadow: rgba(174, 136, 191, 0.48) 6px 2px 16px 0px,
+    rgba(211, 74, 238, 0.8) -6px -2px 16px 0px;
+  border-radius: 10px;
+}
+.background_2{
+  width: 800px;
+  height: 800px;
+  border: 1px solid pink;
+  background-image: url(https://assets.adidas.com/images/w_320,f_auto,q_auto,fl_lossy,c_fill,g_auto/66f38ab044b6469f8940ad2a0020a2ee_9366/Ao_Thun_Adicolor_Hong_H14147_01_laydown.jpg);
+  background-size: cover;
+  margin: 94px;
+  border-radius: 10px;
+}
+.background_3{
+  border: 1px solid white;
+  margin-top: 290px;
+  background-color: white;
+  border-radius: 20px 20px 0px 0px;
+}
+#price{
+  display: inline-block;
+  margin-left: 340px;
+  font-size: 45px;
+  font-weight: 600;
+  color: pink;
+
+}
+#title{
+  display: inline-block;
+  margin-left: 10px;
+}
+#title_1{
+  font-size: 30px;
+  margin-left: 10px;
+}
+#title_2{
+  font-size: 30px;
+  margin-left: 10px;
+}
+#button_1{
+  font-size: 30px;
+  background-color: pink;
+  color: white;
+  margin-left: 340px;
+  border: none;
+}
+#button_2{
+  font-size: 30px;
+  color: pink;
+  border: 1px solid pink;
+  background-color: white;
+  margin-left: 30px;
+
+}
+#size{
+  border: 1px solid pink;
+  border-radius: 50%;
+  background-color: pink;
+  display: inline-block;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+.size_zero{
+  background-color: white;
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+.colour #colour_1 {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background: pink;
+  border-radius: 50%;
+  color: pink;
+  box-sizing: border-box;
+}
+.colour{
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+.colour #colour_2 {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background: green;
+  border-radius: 50%;
+  color: green;
+  box-sizing: border-box;
+}
+.colour #colour_0 {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background: gray;
+  border-radius: 50%;
+  color: gray;
+  box-sizing: border-box;
+}
+.background_bai_2{
+  width: 1000px;
+  height: 800px;
+  border: 1px solid blue;
+  margin-left: calc(50vw - 500px);
+  margin-top: 100px;
+  background-color: white;
+  box-shadow: rgba(174, 136, 191, 0.48) 6px 2px 16px 0px,
+    rgba(88, 31, 99, 0.411) -6px -2px 16px 0px;
+  border-radius: 10px;
+}
+.background_1_bai_2{
+  width: 500px;
+  height: 800px;
+  background-image: url(https://afamilycdn.com/150157425591193600/2020/10/12/giang-trinh-15592138721891033819011-1602477583737112833558.jpg);
+  background-size: cover;
+  display: inline-block;
+  border-radius: 10px 0px 0px 10px;
+}
+.nd{
+  float: right;
+  width: 490px;
+  height: 800px;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+.nd_2{
+  display: inline-block;
+  width: 200px;
+}
+.nd_2 a{
+  text-decoration: none;
+  border: 1px solid blue;
+  color: white;
+  border-radius: 20px;
+  font-size: 30px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
